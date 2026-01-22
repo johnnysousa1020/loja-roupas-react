@@ -1,0 +1,19 @@
+.product-section{
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title{
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-weight: 600;
+    border-left: 4px solid #000;
+    padding-left: 10px;
+}
+
+.products-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+}
