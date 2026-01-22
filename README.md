@@ -1,16 +1,68 @@
-# React + Vite
+# 🛍️ FashionShop - Loja de Roupas Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de uma **loja de roupas online** desenvolvido
+com **React**, focado em uma interface moderna, responsiva
+e com funcionalidade reais de e-commerce.
 
-Currently, two official plugins are available:
+🔗 **Demo:**
+ https://johnnysousa1020.github.io/loja-roupas-react/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ---
 
-## React Compiler
+ ## 🚀 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ - Banner com troca automática de imagens
+ - Listagem de produtos por categoria:
+  - Masculino
+  - Feminino
+  - Infantil
+  - Ofertas
+- Página de detalhes do produto
+- Carrinho de compras funcional
+- Contador de itens no carrinho (Header)
+- Adicionar e remover produtos do carrinho
+- Persistência do carrinho com **localStrorage**
+- Finalização de compra com modal de confirmação
+- Layout totalmante **responsivo**
+- Footer profissional na página inicial
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⭐ Tecnologias Utilizadas
+
+- **React**
+- **React Router Dom**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS puro**
+- **Git & GitHub**
+- **GitHub Pages** (deploy)
+
+---
+
+## 🛒 Fluxo do Usuário
+
+1. Usuário acessa a Home
+2. Navega pelas categorias de produtos
+3. Clica em **Ver mais** para acessar os detalhes
+4. Adiciona produtos ao carrinho
+5. Visualiza o carrinho
+6. Finaliza a compra
+
+---
+
+## ✨ Observações
+
+Este projeto foi desenvolvido com foco em:
+
+- Organização de componentes
+- Boas práticas em React
+- Experiência do usuário
+- Simulação real de um e-commerce
+
+---
+
+## Autor
+
+Desenvolvido por Johnny Sousa
+💻 Front-end Developer (React)
